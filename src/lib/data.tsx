@@ -19,6 +19,8 @@ import LogoCypress from "/public/images/logos/icon-cypress.svg";
 import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
 import LogoStorybook from "/public/images/logos/icon-storybook.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
+import LogoAngular from "/public/images/logos/icon-angular.svg";
+import LogoDocker from "/public/images/logos/icon-docker.svg";
 
 import LogoUpwork from "/public/images/logos/logo-upwork.svg";
 import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
@@ -117,22 +119,22 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoNest,
     url: "https://nestjs.com/",
   },
-  {
-    label: "Socket.io",
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: "https://socket.io/",
-  },
+  // {
+  //   label: "Socket.io",
+  //   logo: LogoSocket,
+  //   darkModeLogo: LogoSocketLight,
+  //   url: "https://socket.io/",
+  // },
   {
     label: "PostgreSQL",
     logo: LogoPostgreSQL,
     url: "https://www.postgresql.org/",
   },
-  {
-    label: "MongoDB",
-    logo: LogoMongoDB,
-    url: "https://www.mongodb.com/",
-  },
+  // {
+  //   label: "MongoDB",
+  //   logo: LogoMongoDB,
+  //   url: "https://www.mongodb.com/",
+  // },
   {
     label: "Sass/Scss",
     logo: LogoSass,
@@ -143,26 +145,36 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoTailwindcss,
     url: "https://tailwindcss.com/",
   },
-  {
-    label: "Figma",
-    logo: LogoFigma,
-    url: "https://www.figma.com/",
-  },
-  {
-    label: "Cypress",
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: "https://www.cypress.io/",
-  },
-  {
-    label: "Storybook",
-    logo: LogoStorybook,
-    url: "https://storybook.js.org/",
-  },
+  // {
+  //   label: "Figma",
+  //   logo: LogoFigma,
+  //   url: "https://www.figma.com/",
+  // },
+  // {
+  //   label: "Cypress",
+  //   logo: LogoCypress,
+  //   darkModeLogo: LogoCypressLight,
+  //   url: "https://www.cypress.io/",
+  // },
+  // {
+  //   label: "Storybook",
+  //   logo: LogoStorybook,
+  //   url: "https://storybook.js.org/",
+  // },
   {
     label: "Git",
     logo: LogoGit,
-    url: "https://git-scm.com/",
+    url: "https://git-scm.com",
+  },
+  {
+    label: "Angular",
+    logo: LogoAngular,
+    url: "https://angular.dev",
+  },
+  {
+    label: "Docker",
+    logo: LogoDocker,
+    url: "https://www.docker.com/",
   },
 ];
 
