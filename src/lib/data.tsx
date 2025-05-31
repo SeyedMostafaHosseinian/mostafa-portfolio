@@ -29,7 +29,8 @@ import LogoDotnpixel from "/public/images/logos/logo-dotnpixel.svg";
 import LogoDotnpixelLight from "/public/images/logos/logo-dotnpixel-light.svg";
 
 import ProjectFiskil from "/public/images/project-fiskil.png";
-import ProjectWingie from "/public/images/project-wingie.png";
+import ProjectTechnoshop from "/public/images/project-technoshop.png";
+import ProjectTechnoshopAdmin from "/public/images/project-technoshop-admin.png";
 import ProjectPepehousing from "/public/images/project-pepehousing.png";
 
 import AvatarKrisztian from "/public/images/avatar-krisztian.png";
@@ -193,58 +194,35 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: "Wingie",
-    description:
-      "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
-    url: "https://www.wingie.com",
-    previewImage: ProjectWingie,
+    name: "technoshop website",
+    description: "A digital goods store website",
+    url: "https://technoshop-two.vercel.app",
+    previewImage: ProjectTechnoshop,
     technologies: [
-      "React",
+      "next.js",
       "Typescript",
-      "React Bootstrap",
-      "Firebase",
-      "Express.js",
+      "Nest.js",
       "PostgreSQL",
       "Styled Components",
-      "Redux",
+      "zustand",
+      "tailwind",
     ],
   },
   {
-    name: "Fiskil",
-    description:
-      "A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.",
-    url: "https://fiskil.com.au",
-    previewImage: ProjectFiskil,
+    name: "technoshop panel admin",
+    description: "admin panel for manage store website",
+    url: "https://technoshop-admin-panel.vercel.app",
+    previewImage: ProjectTechnoshopAdmin,
     technologies: [
-      "React",
-      "Next.js",
+      "react",
+      "react-router-dom",
       "Typescript",
-      "Tailwindcss",
-      "Material UI",
-      "Redux Toolkit",
-      "React Query",
-      "Express.js",
+      "Nest.js",
       "PostgreSQL",
-      "Firebase",
-      "AWS Amplify",
-      "Cypress",
-      "Storybook",
-    ],
-  },
-  {
-    name: "Pepehousing",
-    description:
-      "A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
-    url: "https://pepehousing.com",
-    previewImage: ProjectPepehousing,
-    technologies: [
-      "React",
-      "Next.js",
-      "Typescript",
-      "Tailwindcss",
-      "Redux Toolkit",
-      "React Query",
-      "Storybook",
+      "MUI",
+      "tanstack/react-query",
+      "react-hook-form",
+      "tailwind",
     ],
   },
 ];
