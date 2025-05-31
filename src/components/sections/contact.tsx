@@ -1,21 +1,19 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Copy, Mail, Phone } from 'lucide-react';
+import { useState } from "react";
+import { Copy, Mail, Phone } from "lucide-react";
 // import Link from 'next/link';
 
-import SocialIcons from '@/components/data-display/social-icons';
-import Tag from '@/components/data-display/tag';
-import IconButton from '@/components/general/icon-button';
-import Typography from '@/components/general/typography';
-import Container from '@/components/layout/container';
-import useWindowSize from '@/hooks/use-window-size';
-import { copyTextToClipboard } from '@/lib/utils';
+import SocialIcons from "@/components/data-display/social-icons";
+import Tag from "@/components/data-display/tag";
+import IconButton from "@/components/general/icon-button";
+import Typography from "@/components/general/typography";
+import Container from "@/components/layout/container";
+import useWindowSize from "@/hooks/use-window-size";
+import { copyTextToClipboard } from "@/lib/utils";
 
-let email = 'reachsagarshah@gmail.com';
-let phone = '+91 8980500565';
-
-type CopyValue = 'email' | 'phone';
+let email = "reachmostafa7@gmail.com";
+type CopyValue = "email" | "phone";
 
 const ContactSection = () => {
   const { width } = useWindowSize();
@@ -37,7 +35,7 @@ const ContactSection = () => {
     } catch (error) {
       setIsCopied(false);
       setCopiedValueType(null);
-      alert('Unable to copy!');
+      alert("Unable to copy!");
     }
   };
 
@@ -61,23 +59,9 @@ const ContactSection = () => {
             <Typography variant="h2">{email}</Typography>
             {/* </Link> */}
             <IconButton
-              size={width && width < 768 ? 'md' : 'lg'}
-              onClick={() => handleCopyClick(email, 'email')}
-              showTooltip={isCopied && copiedValueType === 'email'}
-              tooltipText="Copied!"
-            >
-              <Copy />
-            </IconButton>
-          </div>
-          <div className="flex items-center gap-4 md:gap-5">
-            <Phone className="h-6 w-6 md:h-8 md:w-8" />
-            {/* <Link href={`tel:${phone.replace(' ', '')}`}> */}
-            <Typography variant="h2">{phone}</Typography>
-            {/* </Link> */}
-            <IconButton
-              size={width && width < 768 ? 'md' : 'lg'}
-              onClick={() => handleCopyClick(phone.replace(' ', ''), 'phone')}
-              showTooltip={isCopied && copiedValueType === 'phone'}
+              size={width && width < 768 ? "md" : "lg"}
+              onClick={() => handleCopyClick(email, "email")}
+              showTooltip={isCopied && copiedValueType === "email"}
               tooltipText="Copied!"
             >
               <Copy />
@@ -95,4 +79,18 @@ const ContactSection = () => {
   );
 };
 
+//  <div className="flex items-center gap-4 md:gap-5">
+//           <Phone className="h-6 w-6 md:h-8 md:w-8" />
+//           {/* <Link href={`tel:${phone.replace(' ', '')}`}> */}
+//           <Typography variant="h2">{phone}</Typography>
+//           {/* </Link> */}
+//           <IconButton
+//             size={width && width < 768 ? 'md' : 'lg'}
+//             onClick={() => handleCopyClick(phone.replace(' ', ''), 'phone')}
+//             showTooltip={isCopied && copiedValueType === 'phone'}
+//             tooltipText="Copied!"
+//           >
+//             <Copy />
+//           </IconButton>
+//         </div>
 export default ContactSection;
