@@ -8,34 +8,15 @@ import LogoNodejs from "/public/images/logos/icon-nodejs.svg";
 import LogoExpress from "/public/images/logos/icon-express.svg";
 import LogoExpressLight from "/public/images/logos/icon-express-light.svg";
 import LogoNest from "/public/images/logos/icon-nest.svg";
-import LogoSocket from "/public/images/logos/icon-socket.svg";
-import LogoSocketLight from "/public/images/logos/icon-socket-light.svg";
 import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
-import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
 import LogoSass from "/public/images/logos/icon-sass.svg";
 import LogoTailwindcss from "/public/images/logos/icon-tailwindcss.svg";
-import LogoFigma from "/public/images/logos/icon-figma.svg";
-import LogoCypress from "/public/images/logos/icon-cypress.svg";
-import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
-import LogoStorybook from "/public/images/logos/icon-storybook.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
 import LogoAngular from "/public/images/logos/icon-angular.svg";
 import LogoDocker from "/public/images/logos/icon-docker.svg";
 
-import LogoUpwork from "/public/images/logos/logo-upwork.svg";
-import LogoGreenApex from "/public/images/logos/logo-greenapex.svg";
-import LogoGreenApexLight from "/public/images/logos/logo-greenapex-light.svg";
-import LogoDotnpixel from "/public/images/logos/logo-dotnpixel.svg";
-import LogoDotnpixelLight from "/public/images/logos/logo-dotnpixel-light.svg";
-
-import ProjectFiskil from "/public/images/project-fiskil.png";
 import ProjectTechnoshop from "/public/images/project-technoshop.png";
 import ProjectTechnoshopAdmin from "/public/images/project-technoshop-admin.png";
-import ProjectPepehousing from "/public/images/project-pepehousing.png";
-
-import AvatarKrisztian from "/public/images/avatar-krisztian.png";
-import AvatarEugen from "/public/images/avatar-eugen.png";
-import AvatarDummy from "/public/images/avatar-dummy.svg";
 
 import {
   ExperienceDetails,
@@ -225,24 +206,9 @@ export const PROJECTS: ProjectDetails[] = [
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: "Krisztian Gyuris",
-    personAvatar: AvatarKrisztian,
-    title: "Founder - inboxgenie.io",
-    testimonial:
-      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend mostafa and will rehire in the future for Frontend development.",
-  },
-  {
-    personName: "Eugen Esanu",
-    personAvatar: AvatarEugen,
-    title: "Founder - shosho.design",
-    testimonial:
-      "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
-  },
-  {
-    personName: "Joe Matkin",
-    personAvatar: AvatarDummy,
-    title: "Freelancer",
-    testimonial:
-      "mostafa was extremely easy and pleasant to work with and he truly cares about the project being a success. mostafa has a high level of knowledge and was able to work on my MERN stack application without any issues.",
+    personName: "",
+    // personAvatar: AvatarKrisztian,
+    title: "",
+    testimonial: "",
   },
 ];
