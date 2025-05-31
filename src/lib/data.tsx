@@ -45,12 +45,8 @@ import {
 } from "@/lib/types";
 
 export const EXTERNAL_LINKS = {
-  GITHUB: "https://github.com/shahsagarm",
-  GITHUB_REPO: "https://github.com/shahsagarm/sagarshah.dev",
-  TWITTER: "https://twitter.com/shahsagarm",
-  FIGMA: "https://www.figma.com/@shahsagarm",
-  FIGMA_FILE:
-    "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
+  GITHUB: "https://github.com/SeyedMostafaHosseinian",
+  GITHUB_REPO: "https://github.com/SeyedMostafaHosseinian/mostafa-portfolio",
 };
 
 export const NAV_LINKS = [
@@ -233,7 +229,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarKrisztian,
     title: "Founder - inboxgenie.io",
     testimonial:
-      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.",
+      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend mostafa and will rehire in the future for Frontend development.",
   },
   {
     personName: "Eugen Esanu",
@@ -247,6 +243,6 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarDummy,
     title: "Freelancer",
     testimonial:
-      "Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.",
+      "mostafa was extremely easy and pleasant to work with and he truly cares about the project being a success. mostafa has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
